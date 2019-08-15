@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOOTSTRAP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .tombol{
+            border-radius: 5px;
+            border-color: blueviolet;
+            color: blueviolet;
+            width: 100px;
+            height: 35px;
+            line-height: 35px;
+
+        }
+        .tombol:hover{
+            background-color: blueviolet;
+            color: white;
+        }
+        /* Small */
+        /* @media(min-width: 576px){
+            body{
+                background-color: aqua;
+            }
+        } */
+        /* Medium */
+        /* @media(min-width: 768px){
+            body{
+                background-color: teal;
+            }
+        } */
+        /* large */
+        /* @media(min-width: 992px){
+            body{
+                background-color: orangered;
+            }
+        } */
+        /* Extra Large */
+        /* @media(min-width: 1200px){
+            body{
+                background-color: black;
+            }
+        } */
+    </style>
+</head>
+<body>
+<!-- Typography -->
+    <h1>Hello With Bootstrap 4</h1>
+    <h2>Hello With Bootstrap 4</h2>
+    <h3>Hello With Bootstrap 4</h3>
+    <h4>Hello With Bootstrap 4</h4>
+    <h5>Hello With Bootstrap 4</h5>
+    <h6 class="h1">Hello With Bootstrap 4</h6>
+<br><hr>
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1class>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+<br><hr>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, aliquid recusandae vitae quam eum, velit nihil at amet molestiae voluptate dolor.
+    </p>
+    <p class="lead">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, aliquid recusandae vitae quam eum, velit nihil at amet molestiae voluptate dolor.
+    </p>
+<br><hr>
+    <p class="text-monospace">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore, doloremque assumenda saepe amet facere laudantium dolores fuga magnam, sequi itaque atque quis quos et! Voluptas illo non eligendi sequi.
+    </p>
+<br><hr>
+    <p class="font-weight-bold">
+        Teks Bold
+    </p>
+    <p class="font-weight-normal">
+        Teks Normal
+    </p>
+    <p class="font-italic">
+        Teks Italic
+    </p>
+<br><hr>
+    <p class="text-uppercase">make to uppercase</p>    
+    <p class="text-lowercase">Make to LOWERCASE</p>    
+    <p class=" text-capitalize">make to Capitalize</p>    
+<br><hr>
+    <blockquote 
+    class=" blockquote text-right">
+        <p>First always hard, and the rest will be more hard. Don't panic</p>
+    </blockquote>
+<br><hr>
+    <blockquote 
+    class=" blockquote">
+        <p>First always hard, and the rest will be more hard. Don't panic</p>
+        <footer class=" blockquote-footer">
+        Rico Antonio 2019 in <cite title="Source Title">Times</cite>
+        </footer>
+    </blockquote>
+<br><hr>
+    <ul class=" list-unstyled">
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+        <li>List 5</li>
+    </ul>
+<br><hr>
+
+<!-- Alingment and Display -->
+    <p class=" text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus necessitatibus quisquam ducimus? At est, repellat tenetur asperiores ipsam reiciendis eveniet repellendus?</p>
+    <p class=" text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus necessitatibus quisquam ducimus? At est, repellat tenetur asperiores ipsam reiciendis eveniet repellendus?</p>
+    <p class=" text-right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus necessitatibus quisquam ducimus? At est, repellat tenetur asperiores ipsam reiciendis eveniet repellendus?</p>
+    <p class=" text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus necessitatibus quisquam ducimus? At est, repellat tenetur asperiores ipsam reiciendis eveniet repellendus?</p>
+<br><hr>
+
+<!-- Media Quary -->
+    <!-- Tentang style apa yang akan diterapkan pada lebat layar tertentu -->
+    <!-- 
+        small       = sm (576-767)
+        medium      = md (768-991)
+        large       = lg (992-1199)
+        extra large = xl (1200-)
+     -->
+    <p class=" text-sm-right">Rata kanan pada small atau lebih</p>
+    <p class="text-md-right">Rata kanan pada medium atau lebih</p>
+    <p class="text-lg-right">Rata kanan pada large atau lebih</p>
+    <p class="text-xl-right">Rata kanan pada extra large atau lebih</p>
+<br><hr>
+    <p class=" text-sm-center">Rata kanan pada small atau lebih</p>
+    <p class="text-md-center">Rata kanan pada medium atau lebih</p>
+    <p class="text-lg-center">Rata kanan pada large atau lebih</p>
+    <p class="text-xl-center">Rata kanan pada extra large atau lebih</p>
+<br><hr>
+
+<!-- Block Level Element dan Inline Element-->
+    <!-- width dan height jhanya berlaku untuk block level element -->
+    <h1 class=" d-inline bg-danger">Tag Header</h1>
+    <h1 class=" d-inline bg-warning">Tag Header 2</h1>
+
+    <span class=" d-block bg-primary">ini tag inline</span>
+    <span class=" d-block bg-success">ini tag inline</span>
+<br><hr>
+
+<!-- Mewarnai -->
+     <!-- Text -->
+     <h1 class="text-primary">Primary</h1>
+     <h1 class="text-info">Info</h1>
+     <h1 class="text-success">Success</h1> 
+     <h1 class="text-secondary">Secondary</h1>
+     <h1 class="text-danger">Danger</h1>
+     <h1 class="text-warning">Warning</h1>
+     <h1 class="text-dark">Dark</h1>
+<br><hr>
+     <!-- Link -->
+     <p>
+         <a href="" class="text-primary">Link Primary</a>
+     </p>
+     <p>
+         <a href="" class="text-info">Link Info</a>
+     </p>
+     <p>
+         <a href="" class="text-danger">Link Danger</a>
+     </p>
+<br><hr>
+     <!-- Background -->
+     <div class="bg-secondary">
+        <p class=" text-white bg-primary">Backgroud Primary</p>
+        <p class=" text-white bg-info">Backgroud Info</p>
+        <p class=" text-white bg-transparent">Backgroud Transparant</p>
+        <p class=" text-white bg-white">Backgroud White</p>
+        <p class=" invisible">Invisible</p>
+     </div>
+<br><hr>
+<!-- Box Model / Spacing -->
+     <!-- 
+         Margin Collapse
+         kanan kiri ditambah 
+         atas bawah dicari paling besar
+      -->
+    <!-- 
+        Property
+        Margin    =   m
+        Padding   =   p
+
+        Side Code
+        top       =   t
+        right     =   r
+        bottom    =   b
+        left      =   l
+        
+        right and left    =   x
+        top and bottom    =   y
+    -->
+       
+      <!-- Maargin adalah jarak dari element ke luar -->
+      <h1 class="bg-warning mb-0">Something</h1>
+      <h1 class="bg-warning mt-0 mb-3">Margin Top 0</h1>
+      <h1 class="bg-warning mt-1">Margin Top 1</h1>
+      <h1 class="bg-warning mt-2">Margin Top 2</h1>
+      <h1 class="bg-warning mt-3">Margin Top 3</h1>
+      <h1 class="bg-warning mt-4">Margin Top 4</h1>
+      <h1 class="bg-warning mt-5">Margin Top 5</h1>
+<br><hr>
+
+    <p>
+        <span class="bg-danger">Margin right 5</span>
+        <span class=" mx-5">Text in the middle</span>
+        <span class="bg-success">Margin left 5</span>
+    </p>
+
+
+
+
+
+
+        <div style="margin-top: 600px"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
