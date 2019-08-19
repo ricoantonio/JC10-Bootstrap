@@ -65,7 +65,7 @@
         <!-- flex-row  main horizontal justify-content-center -->
         <!-- flex-column main vertical align-item-center -->
         <h3 class="text-center my-3">Flex Column</h3>
-        <div class="d-flex flex-column justify-content-center my-5 container-flex">
+        <div class="d-flex flex-column justify-content-center align-items-center my-5 container-flex">
             <div class="p-4 item-h1">Flex item 1</div>
             <div class="p-4 item-h1">Flex item 2</div>
             <div class="p-4 item-h1">Flex item 3</div>
@@ -91,7 +91,14 @@
             <div class="p-4 item-h1">Flex item 2</div>
             <div class="p-4 item-h1">Flex item 3</div>
         </div>
-
+        <!-- flex-grow-0 akan memiliki lebar secukupnya saja-->
+        <!-- flex-grow-1 akan mengambil sisa lebar yang tersedia-->
+        <!-- jika teradapat lebih dari 1 flex-grow-1, sisa space akan dibagi sama rata-->
+        <div class="d-flex flex-row mt-5 container-flex">
+            <div class="p-4 item-h1 flex-grow-1">Flex item 1</div>
+            <div class="p-4 item-h1 flex-grow-1">Flex item 2</div>
+            <div class="p-4 item-h1 flex-grow-1">Flex item 3</div>
+        </div>
 
 
 
